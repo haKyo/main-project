@@ -1,5 +1,23 @@
 <% provide(:title, @user.name) %>
-<div class="row">
+
+<div class="bottom">
+  <div id="menu">
+    <ul>
+      <li><%= link_to "Study" , study_path %></li>
+      <li><%= link_to "Entertainment" , entertainment_path %></li>
+      <li><%= link_to "Heathly" , heathly_path %></li>
+    </ul>
+  </div>
+  
+  <div style="float: left; width: 30%; height: 100%">
+    
+  </div>
+  <div style="float: right; width: 70%">
+    
+  </div>
+</div>
+
+<div class="column">
   <aside class="col-md-4">
     <section class="user_info">
       <h1>

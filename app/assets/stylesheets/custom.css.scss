@@ -39,7 +39,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: $gray-light;
+  or: $gray-light;
 }
 
 p {
@@ -200,4 +200,39 @@ input {
 #session_remember_me {
   width: auto;
   margin-left: 0;
+}
+
+#menu {
+  float: top; 
+  width: 100%;
+  ul{
+    list-style: none;
+    li {
+      border: 1px solid white;
+      width: 25%;
+      line-height: 35px;
+      text-align: center;
+      float: right;
+      background-color: #00FFFF;
+      font-size: 1.5em;
+      a {
+        color: black;
+      }
+    }
+  }
+}
+
+.column {
+  width: 25%;
+  height: 80%;
+}
+
+/* new css for table */
+td {
+    height: 50px;
+    width: 20%;
+    border: 1px dashed blue;
+}
+table {
+    border: 1px solid black;
 }
