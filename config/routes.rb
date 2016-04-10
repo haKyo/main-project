@@ -4,11 +4,13 @@ Rails.application.routes.draw do
   get 'study' => 'main_features#Study'
   get 'entertainment'=> 'main_features#Entertainment'
   get 'heathly' => 'main_features#Heathly'
+  
 
   get 'help' => 'static_pages#help'
   get 'about' => 'static_pages#about'
   get 'contact' => 'static_pages#contact'
   get 'signup' => 'users#new'
+  get 'test' => 'static_pages#test'
   
   get    'login'   => 'sessions#new'
   post   'login'   => 'sessions#create'

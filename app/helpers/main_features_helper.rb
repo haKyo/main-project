@@ -1,2 +1,0 @@
-module MainFeaturesHelper
-end
